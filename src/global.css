@@ -1,0 +1,292 @@
+body {
+	margin: 0px;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app-header {
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.form .input-search {
+	width: 250px;
+	height: 25px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 17px;
+}
+
+.form .button-input {
+	width: 125px;
+	height: 30px;
+	margin-bottom: 10px;
+	background: transparent;
+	border: none;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+.form .button-input:hover {
+	background-color: yellow;
+	color: black;
+	cursor: pointer;
+}
+
+.pokemon-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid black;
+	margin-bottom: 20px;
+	background-image: url('./assets/icon-pokebol.png');
+	background-size: 570%;
+}
+
+.pokemon-card .button-card {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.pokemon-card .button-card button {
+	background: transparent;
+  font-weight: bold;
+	border: none;
+	border: 2px solid black;
+	width: 50px;
+	height: 25px;
+	margin: 5px;
+}
+
+.pokemon-card .button-card button:hover {
+	background-color: yellow;
+	color: black;
+	cursor: pointer;
+}
+
+.pokemon-card .pokemon-name {
+	margin: 0px;
+	text-transform: capitalize;
+}
+
+.pokemon-card .pokemon-image {
+	width: 200px;
+	height: 200px;
+}
+
+.pokemon-card .pokemon-infos {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.pokemon-card p {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.pokemon-card .pokemon-type-list {
+	font-size: 16px;
+}
+
+.pokemon-card .pokemon-type-list li {
+	margin: 0px;
+	text-transform: capitalize;
+	text-align: flex-start;
+	font-weight: bold;
+}
+
+.pokemon-card .pokemon-type-list .li-fighting {
+	color: #d56723;
+}
+
+.pokemon-card .pokemon-type-list .li-flying {
+	color: #3dc7ef;
+}
+
+.pokemon-card .pokemon-type-list .li-poison {
+	color: #b97fc9;
+}
+
+.pokemon-card .pokemon-type-list .li-ground {
+	color: #f7de3f;
+}
+
+.pokemon-card .pokemon-type-list .li-rock {
+	color: #a38c21;
+}
+
+.pokemon-card .pokemon-type-list .li-bug {
+	color: #729f3f;
+}
+
+.pokemon-card .pokemon-type-list .li-ghost {
+	color: #7b62a3;
+}
+
+.pokemon-card .pokemon-type-list .li-steel {
+	color: #9eb7b8;
+}
+
+.pokemon-card .pokemon-type-list .li-fire {
+	color: #fd7d24;
+}
+
+.pokemon-card .pokemon-type-list .li-water {
+	color: #4592c4;
+}
+
+.pokemon-card .pokemon-type-list .li-grass {
+	color: #9bcc50;
+}
+
+.pokemon-card .pokemon-type-list .li-electric {
+	color: #b8a005;
+}
+
+.pokemon-card .pokemon-type-list .li-psychic {
+	color: #f366b9;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	width: 800px;
+	justify-content: space-around;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 5px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-image: url('./assets/icon-pokebol.png');
+	background-size: 600%;
+}
+
+.card .button-card {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.card .button-card button {
+	background: transparent;
+	font-weight: bold;
+	border: none;
+	border: 2px solid black;
+	width: 30px;
+	height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.card .button-card button:hover {
+	background-color: yellow;
+	color: black;
+	cursor: pointer;
+}
+
+.card .pokemon-name {
+	margin: 0px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+.card .pokemon-image {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.card p {
+	margin: 0px;
+	font-size: 16px;
+}
+
+.card .pokemon-type-list {
+	font-size: 14px;
+}
+
+.card .pokemon-type-list li {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.card .pokemon-type-list .li-fighting {
+	color: #d56723;
+}
+
+.card .pokemon-type-list .li-flying {
+	color: #3dc7ef;
+}
+
+.card .pokemon-type-list .li-poison {
+	color: #b97fc9;
+}
+
+.card .pokemon-type-list .li-ground {
+	color: #f7de3f;
+}
+
+.card .pokemon-type-list .li-rock {
+	color: #a38c21;
+}
+
+.card .pokemon-type-list .li-bug {
+	color: #729f3f;
+}
+
+.card .pokemon-type-list .li-ghost {
+	color: #7b62a3;
+}
+
+.card .pokemon-type-list .li-steel {
+	color: #9eb7b8;
+}
+
+.card .pokemon-type-list .li-fire {
+	color: #fd7d24;
+}
+
+.card .pokemon-type-list .li-water {
+	color: #4592c4;
+}
+
+.card .pokemon-type-list .li-grass {
+	color: #9bcc50;
+}
+
+.card .pokemon-type-list .li-electric {
+	color: #b8a005;
+}
+
+.card .pokemon-type-list .li-psychic {
+	color: #f366b9;
+}
+
+
